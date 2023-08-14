@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("src/assets/back.png"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* Растягивает изображение на всю область */  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
